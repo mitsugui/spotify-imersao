@@ -14,14 +14,14 @@ body {
 .sidebar__navigation {
     background-color: #121212;
     border-radius: 8px;
-    padding: 16px 0 0 16px;
+    padding: 16px 0px 0px 0px;
 }
 
 .sidebar__navigation .logo {
     background-color: #121212;
     display: flex;
     border-radius: 8px;
-    padding: 16px 0 0 16px;
+    padding: 16px;
 }
 
 .sidebar__navigation .logo img {
@@ -38,6 +38,8 @@ body {
 }
 
 .sidebar nav li a {
+    display: flex;
+    gap: 20px;
     color: #b3b3b3;
     text-decoration: none;
     font-weight: 600;
@@ -164,4 +166,59 @@ body {
     margin: 8px;
     padding: 8px;
     border-radius: 20px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    background: rgb(175,40,150);
+    background: linear-gradient(90deg, rgba(175,40,150,1) 0%, rgba(80,155,245,1) 100%);
+    padding: 10px 20px 10px 10px;
+    margin: 10px;
+}
+
+.footer__content__left {
+    display: block;
+}
+
+.footer__content__left .text {
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+}
+
+.footer__content__left .title {
+    font-size: 13px;
+    font-weight: 700;
+    padding: 5px 0px 0px 0px;
+}
+
+.footer__content__left .subtitle {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 0px 0px 0px;
+}
+
+.footer__content__right__button {
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    width: 190px;
+    padding: 15px;
+    margin-top: 5px;
+    border: 0px;
+    border-radius: 30px;
+}
+
+.footer__content__right__button:hover {
+    opacity: 0.9;
+    border-radius: 40px;
 }
