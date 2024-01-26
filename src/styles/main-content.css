@@ -121,3 +121,27 @@
     justify-content: space-between;
     margin-top: 32px;
 }
+
+.section__playlist__cards .card {
+    position: relative;
+    width: 220px;
+    height: 200px;
+    margin-bottom: 32px;
+    border-radius: 8px;
+    padding: 10px 0 0 10px;
+}
+
+.section__playlist__cards .card__title {
+    color: var(--text-base-light);
+    font-family: var(--font-dm-sans);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.section__playlist__cards .card__image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: auto;
+    width: 107px;
+}
