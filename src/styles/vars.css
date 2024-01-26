@@ -6,7 +6,9 @@
     --text-base-dark: #000;
     --text-base-light: #fff;
     --text-sub: #a7a7a7;
+    --text-nav: #b3b3b3;
 
     --bg-icon: #131313;
-    --bg-arrow-color: rgba(0, 0, 0, 0.7)
+    --bg-arrow-color: rgba(0, 0, 0, 0.7);
+    --bg-base-content: #121212;
 }
