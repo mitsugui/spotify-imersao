@@ -122,7 +122,7 @@ body {
     font-size: 12px;
 }
 
-.section-playlist__content .section-playlist__button {
+.section-playlist__button {
     display: flex;
     justify-content: center;
     background-color: #fff;
@@ -136,6 +136,11 @@ body {
     margin-top: 10px;
     border: 0px;
     width: 113px;
+}
+
+.section-playlist__button:hover {
+    transform: scale(1.04);
+    cursor: pointer;
 }
 
 .sidebar .cookies {
@@ -205,7 +210,8 @@ body {
     flex-shrink: 0;
 }
 
-.footer__content__right__button:hover {
+.disclaimer-premium button:hover {
+    transform: scale(1.04);
     opacity: 0.9;
     border-radius: 40px;
 }

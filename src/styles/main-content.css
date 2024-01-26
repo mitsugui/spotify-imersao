@@ -16,7 +16,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 16px;
-    margin: 10px;
+    margin: 0 10px 0 10px;
     border-radius: 8px;
     background-color: var(--bg-base-content);
 }
@@ -94,6 +94,11 @@
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
+}
+
+.header__login .login:hover {
+    transform: scale(1.04);
+    cursor: pointer;
 }
 
 .playlist-container {
